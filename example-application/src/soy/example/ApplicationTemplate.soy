@@ -1,0 +1,25 @@
+{namespace example.ApplicationTemplate}
+
+
+/**
+ *  
+ */
+{template .Template}
+  <div>
+    <h2>Example Application</h2>
+    <p>
+      If everything works, the you should see:
+      <ul>
+        <li>This application, because the javascript was parsed correctly and all the dependency files where rendered into this .html file.</li>
+        <li>These messages with two buttons below, because soy compiled correctly and is being picked up with a goog.require() statement from example/Application.js</li>
+        <li>A box with a red border bellow the buttons, because gss is compiled into the html file.</li>
+        <li>When clicking on the buttons a relevant message should be displayed in the red box, because the javascript application loads correctly.</li>
+      </ul>
+    </p>
+    <button class="{css example-Application-yellow-button}">Yellow</button>
+    <button class="{css example-Application-red-button}">Red</button>
+    <div class="{css example-Application-content}">
+      <!-- The content Div -->
+    </div>
+  </div>
+{/template}

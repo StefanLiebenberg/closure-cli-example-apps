@@ -1,0 +1,18 @@
+outputDirectory: build
+shouldCompile: false
+
+
+# the compiled templates is a hack for now
+javascriptSourceDirectories:
+- src/javascript
+- build/compiled-templates
+javascriptTestsDirectories:
+- test/javascript
+gssSourceDirectories:
+- src/gss
+soySourceDirectories:
+- src/soy
+javascriptEntryPoints:
+- example.Application
+gssEntryPoints:
+- example-Application

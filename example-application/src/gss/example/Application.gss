@@ -1,0 +1,22 @@
+@provide example-Application;
+
+
+.example-Application {
+  margin: 10px;
+}
+
+.example-Application-content {
+  border: 2px solid red;
+  padding: 5px;
+  background: azure;
+}
+
+
+.example-Application-yellow-button {
+  border: 1px dotted yellow;
+}
+
+.example-Application-red-button {
+  border: 1px dotted red;
+}
+
