@@ -1,0 +1,3 @@
+[submodule "example-application/src/javascript/closure-library"]
+	path = example-application/src/javascript/closure-library
+	url = https://code.google.com/p/closure-library/
