@@ -1,3 +1,3 @@
 
 main: 
-	java -jar ../bin/closure-cli.jar templates stylesheets javascript html
+	java -jar ../bin/closure-cli.jar build templates stylesheets javascript html

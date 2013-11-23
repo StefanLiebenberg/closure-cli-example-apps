@@ -1,0 +1,19 @@
+outputDirectory: build
+shouldCompile: false
+shouldDebug: false
+javascript:
+  sourceDirectories:
+   - src/javascript
+   - build/compiled-templates
+  testDirectories:
+   - test/javascript
+  entryPoints:
+   - example.Application
+stylesheets:
+  sourceDirectories:
+  - src/gss
+  entryPoints:
+  - example-Application
+templates:
+  sourceDirectories:
+  - src/soy
