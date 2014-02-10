@@ -1,0 +1,19 @@
+{namespace example.Shell}
+
+/**
+ * @param Scripts
+ * @param Stylesheets
+ * @param Title
+ * @param Content
+ */
+{template .Template autoescape="false"}
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>{if isNonnull($Title)}Example Application - {/if} Demo App</title>
+      {$Scripts}
+      {$Stylesheets}
+    </head>
+    <body>{$Content}</body>
+  </html>
+{/template}

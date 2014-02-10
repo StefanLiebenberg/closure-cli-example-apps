@@ -17,3 +17,5 @@ stylesheets:
 templates:
   sourceDirectories:
   - src/soy
+html:
+  template: example.Shell.Template
