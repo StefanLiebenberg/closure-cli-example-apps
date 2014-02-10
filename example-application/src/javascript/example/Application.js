@@ -39,7 +39,7 @@ example.Application.prototype.onRedButtonAction = function(event) {
 /**
  * @param {goog.events.Event} event
  */
-example.Application.prototype.onYellowButtonAction = function() {
+example.Application.prototype.onYellowButtonAction = function(event) {
   this.setContentText(goog.getMsg("{$Button} Pressed!!!", {
     'Button': goog.getMsg('Yellow Button')
   }));
@@ -68,7 +68,7 @@ example.Application.prototype.getContentElement = function() {
 /** @override */
 example.Application.prototype.createDom = function() {
   var html = example.ApplicationTemplate.Template();
-  var element = goog.dom.htmlToDocumentFragment(html);
+  var element = /** @type {Element} */ (goog.dom.htmlToDocumentFragment(html));
   this.setElementInternal(element);
 };
 
